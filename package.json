@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc",
+    "relay": "relay-compiler"
+  },
+  "dependencies": {
+    "next": "^12.0.2",
+    "node-fetch": "^3.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-relay": "^12.0.0",
+    "relay-nextjs": "^0.4.1",
+    "relay-runtime": "^12.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-relay": "^11.0.2",
+    "@types/relay-runtime": "^12.0.0",
+    "@types/uuid": "^8.3.1",
+    "babel-plugin-relay": "^12.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "12.0.3",
+    "graphql": "^15.7.2",
+    "relay-compiler": "^12.0.0",
+    "relay-compiler-language-typescript": "^14.3.0",
+    "relay-config": "^12.0.0",
+    "typescript": "^4.4.4"
+  }
+}
